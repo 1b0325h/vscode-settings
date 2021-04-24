@@ -1,0 +1,34 @@
+{
+	"base_10.py": {
+		"prefix": "base_10",
+		"body": [
+			"def base_10(n, b):",
+         "   x = list(n)",
+         "   c = 0",
+         "   while x:",
+         "      c *= b",
+         "      c += int(x.pop(0))",
+         "   return c",
+         ""
+		],
+		"description": ""
+   },
+   "base_n.py": {
+		"prefix": "base_n",
+		"body": [
+			"def base_n(n, b):",
+         "   c = 0",
+         "   for i in range(10**9):",
+         "      if n < b**i:",
+         "         c += i",
+         "         break",
+         "   s = \"\"",
+         "   for i in range(1, c+1):",
+         "      s += str(x := n // (b**(c-i)))",
+         "      n -= x * (b**(c-i))",
+         "   return int(s)",
+         ""
+		],
+		"description": ""
+	}
+}
