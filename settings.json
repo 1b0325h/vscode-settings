@@ -1,0 +1,83 @@
+{
+   "update.mode": "none",
+   "breadcrumbs.enabled": false,
+   "window.zoomLevel": 0,
+
+   // files
+   "files.autoSave": "off",
+   "files.insertFinalNewline": true,
+   "files.trimFinalNewlines": true,
+   "files.trimTrailingWhitespace": true,
+   "files.encoding": "utf8",
+   "files.eol": "\r\n",
+   "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      "**/*.ipynb_checkpoints": true,
+   },
+
+   // workbench
+   "workbench.startupEditor": "newUntitledFile",
+   "workbench.colorTheme": "Nord",
+   "workbench.iconTheme": "city-lights-icons-vsc",
+   "workbench.activityBar.visible": false,
+   "workbench.sideBar.location": "left",
+   "workbench.statusBar.visible": true,
+   "workbench.editor.labelFormat": "default",
+   "workbench.editor.enablePreview": false,
+   "workbench.editor.enablePreviewFromQuickOpen": false,
+   "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter-notebook",
+        "filenamePattern": "*.ipynb"
+      }
+   ],
+
+   // font
+   "editor.fontFamily": "\"Myrica M\"",
+   "editor.fontSize": 16,
+   "editor.fontWeight": "normal",
+   "editor.fontLigatures": false,
+
+   // tab
+   "editor.detectIndentation": false,
+   "editor.tabSize": 3,
+   "editor.insertSpaces": true,
+
+   // editor
+   "editor.wordWrap": "off",
+   "editor.lineNumbers": "on",
+   "editor.minimap.enabled": false,
+   "editor.renderWhitespace": "none",
+   "editor.renderLineHighlight": "all",
+   "editor.hover.enabled": false,
+   "editor.autoClosingBrackets": "beforeWhitespace",
+   "editor.autoClosingQuotes": "beforeWhitespace",
+   "editor.selectionHighlight": true,
+   "editor.copyWithSyntaxHighlighting": false,
+   "editor.acceptSuggestionOnEnter": "off",
+   "editor.lightbulb.enabled": false,
+   "editor.cursorBlinking": "smooth",
+   "editor.cursorStyle": "line",
+   "editor.scrollBeyondLastLine": true,
+   "editor.folding": false,
+   "editor.formatOnType": false,
+   "editor.formatOnPaste": false,
+   "editor.emptySelectionClipboard": false,
+
+   // python
+   "python.defaultInterpreterPath": "C:\\WPy64-3860\\python-3.8.6.amd64\\python.exe",
+   "python.autoComplete.addBrackets": true,
+
+   // markdown
+   "markdown.preview.doubleClickToSwitchToEditor": false,
+   "markdown.extension.print.absoluteImgPath": false,
+   "markdown.extension.print.theme": "dark",
+
+   // css
+   "css.lint.duplicateProperties": "warning",
+   "css.lint.float": "warning",
+   "css.lint.zeroUnits": "warning"
+}
