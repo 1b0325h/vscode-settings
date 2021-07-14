@@ -4,10 +4,10 @@
    "window.zoomLevel": 0,
 
    // files
+   "files.trimTrailingWhitespace": true,
    "files.autoSave": "off",
    "files.insertFinalNewline": true,
    "files.trimFinalNewlines": true,
-   "files.trimTrailingWhitespace": true,
    "files.encoding": "utf8",
    "files.eol": "\r\n",
    "files.exclude": {
@@ -21,19 +21,13 @@
    // workbench
    "workbench.startupEditor": "newUntitledFile",
    "workbench.colorTheme": "Nord",
-   "workbench.iconTheme": "city-lights-icons-vsc",
+   "workbench.iconTheme": "material-icon-theme",
    "workbench.activityBar.visible": false,
    "workbench.sideBar.location": "left",
    "workbench.statusBar.visible": true,
    "workbench.editor.labelFormat": "default",
    "workbench.editor.enablePreview": false,
    "workbench.editor.enablePreviewFromQuickOpen": false,
-   "workbench.editorAssociations": [
-      {
-        "viewType": "jupyter-notebook",
-        "filenamePattern": "*.ipynb"
-      }
-   ],
 
    // font
    "editor.fontFamily": "\"Myrica M\"",
@@ -53,6 +47,7 @@
    "editor.renderWhitespace": "none",
    "editor.renderLineHighlight": "all",
    "editor.hover.enabled": false,
+   "editor.parameterHints.enabled": false,
    "editor.autoClosingBrackets": "beforeWhitespace",
    "editor.autoClosingQuotes": "beforeWhitespace",
    "editor.selectionHighlight": true,
@@ -75,9 +70,29 @@
    "markdown.preview.doubleClickToSwitchToEditor": false,
    "markdown.extension.print.absoluteImgPath": false,
    "markdown.extension.print.theme": "dark",
+   "[markdown]": {
+      "files.trimTrailingWhitespace": false,
+      "editor.tabSize": 2,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+         "other": false,
+         "comments": false,
+         "strings": false
+      }
+   },
 
    // css
    "css.lint.duplicateProperties": "warning",
    "css.lint.float": "warning",
-   "css.lint.zeroUnits": "warning"
+   "css.lint.zeroUnits": "warning",
+
+   // haml
+   "[haml]": {
+      "editor.wordWrap": "on",
+   },
+
+   // sass
+   "[sass]": {
+      "editor.wordWrap": "on",
+   },
 }
