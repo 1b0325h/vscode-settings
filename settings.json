@@ -15,7 +15,7 @@
       "**/.DS_Store": true,
       "**/__pycache__": true,
       "**/*.pyc": true,
-      "**/*.ipynb_checkpoints": true,
+      "**/*.ipynb_checkpoints": true
    },
 
    // workbench
@@ -61,10 +61,12 @@
    "editor.formatOnType": false,
    "editor.formatOnPaste": false,
    "editor.emptySelectionClipboard": false,
+   "trailing-spaces.backgroundColor": "rgba(0,180,255,0.3)",
 
    // python
    "python.defaultInterpreterPath": "C:\\WPy64-3860\\python-3.8.6.amd64\\python.exe",
    "python.autoComplete.addBrackets": true,
+   "jupyter.alwaysTrustNotebooks": true,
 
    // markdown
    "markdown.preview.doubleClickToSwitchToEditor": false,
@@ -88,11 +90,15 @@
 
    // haml
    "[haml]": {
-      "editor.wordWrap": "on",
+      "editor.wordWrap": "on"
    },
 
    // sass
    "[sass]": {
-      "editor.wordWrap": "on",
+      "editor.wordWrap": "on"
    },
+
+   // cspell
+   "cSpell.userWords": ["chdir", "strftime", "strptime", "haml", "ipynb",
+      "jupyter", "pycache"]
 }
