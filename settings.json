@@ -80,7 +80,7 @@
     "markdown-pdf.footerTemplate": "<div style=\"font-size: 8px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
-        "editor.tabSize": 2,
+        "editor.tabSize": 4,
         "editor.wordWrap": "on",
         "editor.quickSuggestions": {
             "other": false,
